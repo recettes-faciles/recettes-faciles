@@ -42,9 +42,9 @@
         margin-bottom: 23px;
     }
 	.header_area .navbar {
-		background-image: -moz-linear-gradient(0deg, #f57b1d 0%, #e23e34 100%)!important;
-		background-image: -webkit-linear-gradient(0deg, #f57b1d 0%, #e23e34 100%)!important;
-		background-image: -ms-linear-gradient(0deg, #f57b1d 0%, #e23e34 100%)!important;
+		background-image: -moz-linear-gradient(0deg, #ffbd17, #ffbd17 100%)!important;
+		background-image: -webkit-linear-gradient(0deg, #ffbd17 0%, #ffbd17 100%)!important;
+		background-image: -ms-linear-gradient(0deg, #ffbd17 0%, #ffbd17 100%)!important;
 	}
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
 		opacity: 1;
