@@ -189,6 +189,10 @@
 		display: none;
 	}
 	
+	.mobile-hidden {
+		display: block!important;
+	}
+
 	.home_banner_area {
 		min-height: 500px;
 	}
