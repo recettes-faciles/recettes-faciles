@@ -82,11 +82,9 @@
 							</div>
 						</div>
 						<div>
-							<div class="banner_map_img position-absolute" style="margin-left: -500px; margin-top: -100px" height="500px" width="600px">
+							<div class="banner_map_img position-absolute" style="margin-left: -500px; margin-top: -100px;" height="500px" width="600px">
 								<div class="video_area position-absolute" id="video">
-									<video controls width="800">
-										<source src="img/screen/test.mp4" type="video/mp4">
-										Sorry, your browser doesn't support embedded videos.
+									<video autoplay controls muted width="800" style="box-shadow: 1px 1px 1px 1px rgba(155, 155, 155, 0.6);" src="img/screen/test.mp4" type="video/mp4" id="myVideo">
 									</video>
 								</div>
 							</div>
@@ -205,5 +203,9 @@
         <script src="js/mail-script.js"></script>
         <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
         <script src="js/theme.js"></script>
+		<script>
+			var vid = document.getElementById("myVideo"); 
+			vid.play();
+		</script>
     </body>
 </html>
