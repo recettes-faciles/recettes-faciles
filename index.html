@@ -54,7 +54,7 @@
 					<div class="row banner_content">
 						<div class="col-lg-10">
 							<h2 style="margin-bottom: 10px;margin-top: 210px" class="mobile-hidden"><a class="logo_h mobile-hidden text-center mb-5" href="index.html"><img src="img/logo.png" height="300px" width="300px"></a></h2>
-							<video autoplay controls muted width="100%" class="mobile-show" style="box-shadow: 1px 1px 1px 1px rgba(155, 155, 155, 0.6);" src="img/screen/test.mp4" type="video/mp4" id="myVideo">
+							<video autoplay controls muted width="100%" class="d-none mobile-show" style="box-shadow: 1px 1px 1px 1px rgba(155, 155, 155, 0.6);" src="img/screen/test.mp4" type="video/mp4" id="myVideo">
 							</video>
 							<h2 style="padding-top: 0px;">Scannez frigo et placard. <br> Cuisinez. <br> Dégustez !</h2>
 							<h2 class="mt-5">Télécharger gratuitement !</h2>
@@ -105,7 +105,7 @@
         	<div class="container">
         		<div class="interior_inner row">
         			<div class="col-lg-6">
-        				<img class="img-fluid mobile-hidden" height="1200" width="1200" src="img/phone/scan.png" style="position: absolute;margin-top: -120px; z-index: 20;">
+        				<img class="img-fluid mobile-screen" height="1200" width="1200" src="img/phone/scan.png" style="position: absolute;margin-top: -120px; z-index: 20;">
         			</div>
         			<div class="col-lg-5 offset-lg-1">
         				<div class="interior_text">
@@ -123,6 +123,9 @@
         <section class="interior_area interior_two" style="position: relative; z-index: 30">
         	<div class="container">
         		<div class="interior_inner row">
+				    <div class="col-lg-6">
+        				<img class="img-fluid d-none mobile-show mobile-screen" height="1200" width="1200" src="img/phone/receipt.png" style="position: absolute;margin-top: -120px; z-index: 40; transform: rotateZ(-30deg);">
+        			</div>
         			<div class="col-lg-5 offset-lg-1">
         				<div class="interior_text">
         					<h4>Conseille recettes</h4>
@@ -143,7 +146,7 @@
         	<div class="container">
         		<div class="interior_inner row">
         			<div class="col-lg-6">
-        				<img class="img-fluid mobile-hidden" height="1200" width="1200" src="img/phone/preview.png" style="position: absolute;margin-top: -120px; z-index: 60; transform: rotateZ(30deg);">
+        				<img class="img-fluid mobile-screen" height="1200" width="1200" src="img/phone/preview.png" style="position: absolute;margin-top: -120px; z-index: 60; transform: rotateZ(30deg);">
         			</div>
         			<div class="col-lg-5 offset-lg-1">
         				<div class="interior_text">
@@ -157,7 +160,24 @@
         </section>
         <!--================End Interior Area =================-->
         
-        
+        <!--================Interior Area =================-->
+        <section class="interior_area" style="position: relative; z-index: 50">
+        	<div class="container">
+        		<div class="interior_inner row">
+        			<div class="col-lg-5 offset-lg-1">
+        				<div class="interior_text">
+        					<h4>Ajouter vos recettes !</h4>
+        					<p> Recettes Faciles vous permet d'ajouter vos propres recettes afin que d'autres personne puisses les déguster après analyse de votre frigo. </p>
+        					<a class="main_btn" href="index.html#screens">Voir la démonstration</a>
+        				</div>
+        			</div>
+					<div class="col-lg-6">
+        				<img class="img-fluid mobile-screen" height="1200" width="1200" src="img/phone/nutri_score.png" style="position: absolute;margin-top: -120px; z-index: 60; transform: rotateZ(30deg);">
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Interior Area =================-->
 
         <!--================Feature Area =================-->
         <section class="screenshot_area p_120" id="screens">
