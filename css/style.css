@@ -63,6 +63,7 @@ a {
 a:hover, a:focus {
   text-decoration: none;
   outline: none;
+  color: "#ffbd17"!important;
 }
 
 .row.m0 {
